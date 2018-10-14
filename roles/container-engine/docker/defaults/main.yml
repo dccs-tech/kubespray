@@ -47,3 +47,6 @@ docker_bin_dir: "/usr/bin"
 
 # Used to set docker daemon iptables options
 docker_iptables_enabled: "false"
+
+# flag to enable/disable docker cleanup
+docker_orphan_clean_up: false
